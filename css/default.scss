@@ -23,6 +23,16 @@ $osoc-hue: #FFF;
 * STYLES
 * ============================== */
 
+p.headline{
+  font-size: 1.5em;
+  line-height: 1.3em;
+  max-width: 75%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
 .strike{
   text-decoration: line-through;
 }
@@ -51,19 +61,20 @@ a{
 .big-participate{
   font-size: 1.3em;
   font-weight: bold;
-  display: inline-block;
-  text-align: center;
+  display: block; // hello
   text-decoration: none;
-  background-color: #229387;
+  background-color: #cb2e32;
   color: #FFF;
   padding: 25px;
   border-radius: 5px;
-  margin-left: 60px;
-  margin-bottom: 20px;
+  max-width: 200px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .big-participate:hover{
-  background-color: #cb2e32;
+  background-color: #710909;
 }
 
 p.big{
@@ -435,7 +446,7 @@ p.hero-paragraph{
     margin-bottom: 35px;
   }
 .nav{
-  background-color: rgba(35, 153, 141, 1);
+  background-color: rgba(203, 46, 50, 1);
   height: auto;
   img{
     margin: 0;
