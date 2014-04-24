@@ -305,8 +305,12 @@ p.hero-paragraph {
     font-size: 2em !important;
     max-width: 400px !important; }
 
-  .hero-header, .hero-paragraph, .big-participate {
+  .hero-header, .hero-paragraph {
     margin-left: 15px !important; }
+
+  .big-participate {
+    margin-left: auto;
+    margin-right: auto; }
 
   .location {
     min-height: 700px; }
